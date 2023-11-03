@@ -16,7 +16,7 @@ public class EnemyX : MonoBehaviour
         playerGoal = GameObject.Find("Player Goal");
         spawn = GameObject.Find("Spawn Manager").GetComponent<SpawnManagerX>();
         speed += (spawn.waveCount - 1) * 20;
-        Debug.Log(speed);
+        
         
     }
 
